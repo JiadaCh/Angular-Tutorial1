@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {RouterOutlet} from "@angular/router";
 import {TopBarComponent} from "./top-bar/top-bar.component";
+import {HttpClientModule} from "@angular/common/http";
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +10,8 @@ import {TopBarComponent} from "./top-bar/top-bar.component";
   standalone: true,
   imports: [
     RouterOutlet,
-    TopBarComponent
+    TopBarComponent,
+    HttpClientModule
   ],
   styleUrls: ['./app.component.css']
 })
