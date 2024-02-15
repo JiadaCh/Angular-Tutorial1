@@ -1,0 +1,17 @@
+
+<div *ngFor="let provider of providers | async" class="providers">
+  <div *ngIf="provider.id === providerIdFromRoute">
+    <h2 [title]="provider.name " >
+
+      {{ provider.name }}
+    </h2>
+
+    Products:
+    <div *ngFor="let product of products" >
+      <a [title]="product.name + ' details'"  [routerLink]="['/products', product.id]">
+
+        {{ product.name }}
+      </a>
+    </div>
+  </div>
+</div>

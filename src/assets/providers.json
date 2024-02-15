@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "Something"
+  },
+  {
+    "id": 2,
+    "name": "Xiaomi",
+    "description": "Xiaomi Corporation conocido comúnmente como Xiaomi y registrado como Xiaomi Inc., es una empresa china dedicada al desarrollo de equipos electrónicos, tanto telefónicos como de diversos artículos para el hogar. La compañía se ha abierto paso al mercado mundial inaugurando varias tiendas físicas en determinados países de Asia, Europa e Iberoamérica, además de su sitio web y distribuidores oficiales y extraoficiales. Desde el lanzamiento de su primer teléfono inteligente en agosto de 2011, Xiaomi ha ganado cuota de mercado en China y ha ampliado su línea productos a otros dispositivos electrónicos. Actualmente tiene injerencia mundial en el mercado de tecnología celular."
+  },
+  {
+    "id": 3,
+    "name": "Huawei",
+    "description": "Huawei Technologies Co., Ltd. es una empresa tecnológica multinacional china con sede en Shenzhen, Guangdong. Es la empresa líder en infraestructura de tecnologías de la información y la comunicación y de equipos de telecomunicación del mundo. Huawei también se dedica al mercado de productos electrónicos de consumo. Es una de las empresas tecnológicas más grandes de China."
+  }
+]

@@ -2,6 +2,16 @@
 
 <div *ngIf="product">
   <h3>{{ product.name }}</h3>
+
+  <div *ngFor="let provider of providers | async" class="providers">
+    <div *ngIf="provider.id === product.providerId">
+      <h2 [title]="provider.name" >
+
+        {{ provider.name }}
+      </h2>
+
+    </div>
+  </div>
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
   <button type="button" (click)="addToCart(product)">Buy</button>

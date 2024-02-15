@@ -168,3 +168,12 @@ app-top-bar h1 {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+.fila{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.fila>*{
+  padding: 0 15px;
+}
+

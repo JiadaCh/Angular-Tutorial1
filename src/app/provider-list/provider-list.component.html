@@ -1,0 +1,9 @@
+<h2>Providers</h2>
+<div *ngFor="let provider of providers | async" class="providers">
+  <a [title]="provider.name + ' details'"  [routerLink]="['/providers', provider.id]">
+
+    {{ provider.name }}
+  </a>
+  <br>
+  <a [routerLink]="['/providers', provider.id,'products']">Products</a>
+</div>

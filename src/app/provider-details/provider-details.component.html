@@ -1,0 +1,13 @@
+<h2>Providers Details</h2>
+
+
+<div *ngFor="let provider of providers | async" class="providers">
+  <div *ngIf="provider.id === providerIdFromRoute">
+    <h2 [title]="provider.name " >
+
+      {{ provider.name }}
+    </h2>
+
+      {{provider.description}}
+  </div>
+</div>
