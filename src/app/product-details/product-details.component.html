@@ -5,10 +5,10 @@
 
   <div *ngFor="let provider of providers | async" class="providers">
     <div *ngIf="provider.id === product.providerId">
-      <h2 [title]="provider.name" >
+      <h5 [title]="provider.name" >
+        Provider: <a [routerLink]="['/providers', provider.id]">{{ provider.name }}</a>
 
-        {{ provider.name }}
-      </h2>
+      </h5>
 
     </div>
   </div>

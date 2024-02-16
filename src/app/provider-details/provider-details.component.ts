@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Product, products } from '../products';
-import { CartService } from '../cart.service';
+
 import {CommonModule} from "@angular/common";
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
